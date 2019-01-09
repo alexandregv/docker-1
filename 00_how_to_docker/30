@@ -1,0 +1,3 @@
+docker service update --replicas 20 marines
+#docker service ps marines
+#docker servivice logs -f marines

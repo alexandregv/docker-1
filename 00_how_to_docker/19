@@ -1,0 +1,1 @@
+docker run -it --name Abathur -v ~/bind_docker:/root -p 3000:3000 python:2-slim /bin/bash /root/start.sh
