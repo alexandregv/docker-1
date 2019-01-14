@@ -1,2 +1,1 @@
-docker-machine create --driver "virtualbox" --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v18.09.1/boot2docker.iso "Char"
-#docker-machine create --driver "virtualbox" --virtualbox-boot2docker-url ~/.docker/machine/cache/boot2docker.iso "Char"
+docker-machine create --driver "virtualbox" "Char"
