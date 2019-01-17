@@ -1,4 +1,5 @@
 FROM debian
+MAINTAINER "aguiot--@student.42.fr"
 
 RUN apt-get update && apt-get upgrade -y && apt-get install -y wget default-jre
 

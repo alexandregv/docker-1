@@ -1,4 +1,5 @@
 FROM ruby
+MAINTAINER "aguiot--@student.42.fr"
 
 WORKDIR /app
 COPY . /app

@@ -1,4 +1,5 @@
 FROM node
+MAINTAINER "aguiot--@student.42.fr"
 
 WORKDIR /var/www/app
 
