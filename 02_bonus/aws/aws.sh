@@ -7,8 +7,8 @@ docker-machine create \
   --amazonec2-open-port 8081 \
   --amazonec2-open-port 8082 \
   --amazonec2-root-size 8 \
-  --amazonec2-access-key "AKIAJSO7QWJAWQ2VYO6A" \
-  --amazonec2-secret-key "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" \
+  --amazonec2-access-key "a-revoked-access-key" \
+  --amazonec2-secret-key "a-revoked-secret-key" \
   aws-rs1
 eval $(docker-machine env aws-rs1)
 docker-machine ls
